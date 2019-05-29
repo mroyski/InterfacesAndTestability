@@ -19,7 +19,7 @@ namespace InterfacesAndTestability
             order.Shipment = new Shipment
             {
                 Cost = _shippingCalculator.CalculateShipping(order),
-                ShippingDate = DateTime.FromFileTime.Today.AddDays(1)
+                ShippingDate = DateTime.Today.AddDays(1)
             };
         }
     }
