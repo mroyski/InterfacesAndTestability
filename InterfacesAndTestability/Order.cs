@@ -2,7 +2,7 @@
 
 namespace InterfacesAndTestability
 {
-    internal class Order
+    public class Order
     {
         public DateTime DatePlaced { get; set; }
         public float TotalPrice { get; set; }
